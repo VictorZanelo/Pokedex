@@ -112,8 +112,8 @@ input:focus {
 }
 
 #search {
-  top: 0;
-  position: absolute;
+  top: 10px;
+ position:absolute;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -133,7 +133,7 @@ input:focus {
   align-items: center;
   opacity: 1;
   padding: 10px;
-  height: 50vh;
+  height: 70vh;
   width: 80vw;
   bottom: 0;
   top: 0;
@@ -141,6 +141,7 @@ input:focus {
   right: 0;
   margin: auto;
   position: absolute;
+  flex-direction: column;
 }
 
 .glass {
