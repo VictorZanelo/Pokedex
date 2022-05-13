@@ -20,7 +20,7 @@ html {
 body {
   margin: 0;
   height: 100vh;
-  background-image: url("https://raw.githubusercontent.com/VictorZanelo/Pokedex/main/Pokeball-min.png");
+  background-image: url("/img/Pokeball-min.png");
   background-size: 100vh;
     background-repeat: no-repeat;
   position: relative;
