@@ -25,26 +25,22 @@ body {
   background-repeat: no-repeat;
   position: relative;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 600px) {
   body {
     background-size: 90vh;
     background-repeat: space;
   }
-}
-@media (orientation: landscape) {
-  #sprite {
-    margin: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 5rem !important;
-    height: 5rem !important;
-    border-radius: 10px;
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-    background-color: #d9afd9;
-    background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
+  #view{
+    width: 40vw !important;
+  }
+  #master{
+    width: 50vw !important;
+  }
+  .btn-grad{
+    font-size: 1.5rem !important;
   }
 }
+
 #view {
   max-width: 40vw;
   padding: 20px;
@@ -52,7 +48,8 @@ body {
   justify-content: space-evenly;
   margin: 5px;
   width: 40vw;
-  height: 40vh;
+  height: auto;
+  transition: all 0.5s ease;
   border-radius: 10px;
   box-shadow: 0 8px 32px 0 rgb(0 0 0 / 37%);
   background: #ff416c;
@@ -98,8 +95,9 @@ input:focus {
   background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
 }
 .btn-grad {
-  text-shadow: 0px 0px 10px rgb(165, 165, 165);
+  /* text-shadow: 0px 0px 10px rgb(165, 165, 165); */
   font-family: "Roboto", sans-serif;
+  font-size: 3vw;
   position: relative;
   top: 0;
   bottom: 0;
@@ -108,8 +106,10 @@ input:focus {
   margin: auto;
   text-transform: uppercase;
   transition: 0.5s;
-  color: #fff;
+ /*  color: #fff; */
+  color: #69A197;
 }
+
 
 #search {
   top: 10px;
@@ -128,6 +128,7 @@ input:focus {
 }
 
 #master {
+  transition: 0.2s;
   display: flex;
   justify-content: space-around;
   align-items: center;
