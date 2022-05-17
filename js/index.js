@@ -31,7 +31,7 @@ function pegaPokemon(value) {
       habilidades.forEach((element) => {
         caracteristicas.innerHTML += ` <div id="${element.type.name}" class="info"><div class="btn-grad">${element.type.name}</div></div>`;
       });
-      sprite.innerHTML = ` <img class="" src="${response.data.sprites.other.home.front_default}"  width="100%" alt="">`;
+      sprite.innerHTML = ` <img class="sprite_poke" src="${response.data.sprites.other.home.front_default}"  width="100%" alt="">`;
       nome.innerHTML = response.data.forms[0].name;
       poke.style.display = "block";
       load.style.display = "none";
