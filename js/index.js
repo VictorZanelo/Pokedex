@@ -4,8 +4,7 @@ var input_name = document.getElementById("input_name");
 
 var caracteristicas = document.getElementById("caracteristicas");
 var link = document.querySelector("link[rel~='icon']");
-link.href =
-  "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sport-ball.png";
+
 var not_found = document.getElementById("not_found");
 //var poke = document.getElementById("poke");
 var load = document.getElementById("load");
