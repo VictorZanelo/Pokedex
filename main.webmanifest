@@ -1,0 +1,9 @@
+{
+    "name": "Pokedex",
+    "short_name": "Poke",
+    "theme_color": "#7493ff",
+    "background_color": "#f7fc00",
+    "display": "standalone",
+    "scope": "./index.html",
+    "start_url": "./index.html"
+  }
